@@ -1,6 +1,8 @@
 import turtle
-for i in range(30):
-    turtle.forward(100)
+for i in range(100):
+    turtle.forward(60)
     turtle.right(90)
+    turtle.forward(60)
+    turtle.left(30)
     turtle.clear()
-    turtle.write("Key Jim",font=("Times",20,"bold"))
+    turtle.write("KeyJim",font=("Times",20,"bold"))
