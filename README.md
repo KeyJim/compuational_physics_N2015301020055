@@ -1,7 +1,4 @@
-<font size="72">**compuational_physics_N2015301020055**</font>
-
-
-
+<font size="7">compuational_physics_N2015301020055</font>
 
 [Exercise_02: 打出自己的英文名字](https://github.com/KeyJim/compuational_physics_N2015301020055/blob/master/Exercise_02)
 
