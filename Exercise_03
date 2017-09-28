@@ -1,7 +1,8 @@
+[源代码](http://note.youdao.com/noteshare?id=71f186fefd473b39d7e7f06716cc79fb)    
 ![效果图片1](http://note.youdao.com/noteshare?id=3886b843491feb8036b30cde563738d7)
 ![效果图片2](http://note.youdao.com/noteshare?id=a54402aec5b12a0d0de540f36f07ac00)
 ![效果图片3](http://note.youdao.com/noteshare?id=4a57c76d76af2b1ebbcf31545394fd9f)
-  [源代码](http://note.youdao.com/noteshare?id=71f186fefd473b39d7e7f06716cc79fb)    
+  
  import turtle
 for i in range(100):
     turtle.forward(60)
