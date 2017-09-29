@@ -23,4 +23,4 @@ plt.title("freely falling object") #set title
 plt.xlim(0,10) #set the range of x axis
 plt.ylim(-100,0) #set the range of y axis
 plt.legend()  #make it to show everything
-plt.show()  #activate
+plt.show()  #activate.部分代码参考了李弘禹同学的，表示感谢
