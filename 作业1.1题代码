@@ -7,15 +7,15 @@ g=9.8       #assign a value to g(the accelaration)
 det_t=0.01     #time step
 v.append(0) #assign a value to first item of v[]
 t.append(0) #assign a value to first item of t[]
-end_time=10  #total time
+end_time=12  #total time
 
 for i in range(int(end_time/det_t)):
     tmp=v[i]+(-g)*det_t  #Euler method
     v.append(tmp)  #add new value of v to v[]
     t.append(det_t*(i+1)) #add new value of t to t[]
-    print(t[-1],v[-1]) #print the value of v and t on each stap
+    print(t[1],v[1]) #print the value of v and t on each stap
 
-plt.figure(figsize=(12,9))  #set the size of corresponding figure
+plt.figure(figsize=(15,12))  #set the size of corresponding figure
 plt.plot(t,v,label="v(t)",color="black",linewidth=1) #plot the figure and set label and color and linewidth of the figure
 plt.xlabel("time,(s)")   #set the label of x axis
 plt.ylabel("v,(m/s)")  #set the label of y axis
