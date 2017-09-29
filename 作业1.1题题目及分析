@@ -5,9 +5,11 @@ compute the solution to this problem;that is,calculate v as a function of t.For 
 is zero—that is,the object starts from rest—and calculate the solution for times t=0 s to t=10s.Repeat the calculation for 
 several different values of the time step,and compare the results with the exact solution to it.It turns out that for this
 case the Euler method gives the exact result.Verify this with your numerical results and prove it analytically.  
+
 问题分析：首先，自由落体的物体下落的速度时间函数图像为一条直线，经数学计算其速度在10秒时刻的速度为98m/s,
 采用python语言进行画图，思路如下：
-创建x轴和y轴并创建绘图图像并在当前图像进行绘图
+创建x轴和y轴并创建绘图图像
 采用欧拉法进行公式的输入处理
+规定好图像角标、变量范围等，进行绘图。所使用的软件为spider
 最后用图像得到的结果与实际计算中所得数值进行比对
 结论是欧拉方法对于这个问题给出了正确的回答。
