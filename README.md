@@ -8,4 +8,4 @@
                     [1.1题目原文及其分析想法](https://github.com/KeyJim/compuational_physics_N2015301020055/blob/master/%E4%BD%9C%E4%B8%9A1.1%E9%A2%98%E9%A2%98%E7%9B%AE%E5%8F%8A%E5%88%86%E6%9E%90)                  
                     [1.1图像照片](https://github.com/KeyJim/compuational_physics_N2015301020055/blob/master/%E4%BD%9C%E4%B8%9A%E9%A2%98%E7%9B%AE1.1.png)
 
-[Exercise_05:习题2.6](http://note.youdao.com/share/?id=dffe536ee31c5e1f9c78d0bf4baafcf0&type=note#/)
+[Exercise_05:习题2.6](http://note.youdao.com/share/?id=263b0fe51a08beced35b795156a8e77d&type=note#/)
