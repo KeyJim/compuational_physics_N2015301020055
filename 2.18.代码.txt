@@ -1,0 +1,56 @@
+import numpy as np
+import math
+import pylab as pl
+g=9.8
+v=50
+angel = math.pi/4
+vx1 = math.cos(angel)*v
+vx2 = math.cos(angel)*v
+vy1 = math.sin(angel)*v
+vy2 = math.sin(angel)*v
+x1 = 0
+x2 = 0
+y1 = 2.0
+y2 = 2.0
+dt = 0.01
+X1 = [0]
+X2 = [0]
+Y1 = [0]
+Y2 = [0]
+while 1:
+    B=0.0039+0.0058/(1+math.exp((v-35)/5))
+    S=4.1*10**-4
+    w=33.3*math.pi
+    x1=x1+vx1*dt
+    y1=y1+vy1*dt
+    vx1=vx1-B*v*vx1*dt
+    vy1=vy1-g*dt-B*v*vy1*dt
+    v=math.sqrt(vx1**2+vy1**2)
+    X1.append(x1)
+    Y1.append(y1)
+    if Y1[-1]<0:
+        break
+while 2:
+    B=0.0039+0.0058/(1+math.exp((v-35)/5))
+    S=4.1*10**-4
+    w=33.3*math.pi
+    x2=x2+vx2*dt
+    y2=y2+vy2*dt
+    vx2=vx2-B*v*vx2*dt+S*vy2*w*dt
+    vy2=vy2-g*dt-B*v*vy2*dt-S*vx2*w*dt
+    v=math.sqrt(vx2**2+vy2**2)
+    X2.append(x2)
+    Y2.append(y2)
+    if Y2[-1]<0:
+        break
+def plot():
+    pl.plot(X1,Y1,'blue',label='no backspin')
+    pl.plot(X2,Y2,'black',label='backspin')
+    pl.title('the trajectory of a baseball')
+    pl.xlabel('x axis(m)')
+    pl.ylabel('y axis(m)')
+    pl.xlim(0,150)
+    pl.ylim(0,80)
+    pl.legend()
+    pl.show()
+plot()
