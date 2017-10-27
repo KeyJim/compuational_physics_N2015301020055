@@ -10,4 +10,4 @@
 ## [Exercise_05:习题2.6](http://note.youdao.com/share/?id=263b0fe51a08beced35b795156a8e77d&type=note#/)
 
 ## [Exercise_06:习题2.18](http://note.youdao.com/share/?id=dddb6965304f2e17aeaedc8110c056c9&type=note#/)
-## [Exercise 07:习题3.11](http://note.youdao.com/noteshare?id=f6437676eec283ed51a914fe476091f0)
+## [Exercise 07:习题3.10](http://note.youdao.com/noteshare?id=f6437676eec283ed51a914fe476091f0)
