@@ -11,4 +11,5 @@
 
 ## [Exercise_06:习题2.18](http://note.youdao.com/share/?id=dddb6965304f2e17aeaedc8110c056c9&type=note#/)
 ## [Exercise 07:习题3.10](http://note.youdao.com/noteshare?id=f6437676eec283ed51a914fe476091f0)
-##[Exercise 08: 习题3.18]()
+## [Exercise 08: 习题3.18](http://note.youdao.com/share/?id=ab10c0993b135c83f52d25408f66328b&type=note#/)
+
