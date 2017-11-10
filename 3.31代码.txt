@@ -1,0 +1,64 @@
+import numpy as np
+import pylab as pl
+from math import sin,pi,sqrt
+x = 0.5
+y = 0
+t = 0
+v_x =0.2
+v_y = 0.2
+V_x =[]
+V_y =[]
+X = []
+Y = []
+T = []
+r = 0.75
+dt = 0.01
+while t<=400:
+    if r>=0.5 and -1<=x<=1 and -1<=y<=1:
+        X.append(x)
+        Y.append(y)
+        T.append(t)
+        V_x.append(v_x)
+        V_y.append(v_y)
+        x = x+v_x*dt
+        y = y+v_y*dt
+        t = t+dt
+        r = sqrt(x**2+y**2)
+    else:        
+        x = X[-1]
+        y = Y[-1]
+        t = T[-1]
+        dt_small = dt/100
+        r = sqrt(x**2+y**2)
+        while r>=0.5 and -1<=x<=1 and -1<=y<=1:
+            X.append(x)
+            Y.append(y)
+            T.append(t)
+            x = x+v_x*dt_small
+            y = y+v_y*dt_small
+            t = t+dt_small
+            r = sqrt(x**2+y**2)
+            V_x.append(v_x)
+            V_y.append(v_y)
+        if r<0.5:
+            v_x = v_x-2*(x*v_x+y*v_y)*4*x
+            v_y = v_y-2*(x*V_x[-1]+y*v_y)*4*y
+        if x<-1 or x>1:
+            v_x = -v_x
+        if y<-1 or y>1:
+            v_y = -v_y
+        x = X[-1]
+        y = Y[-1]        
+        
+        
+    
+def plot():
+    pl.plot(X,Y,label='F_D = 1.2')
+    pl.title('movement of ball')
+    pl.xlabel('x axis')
+    pl.ylabel('y axis')
+    pl.xlim(-1,1)
+    pl.ylim(-1,1)
+    pl.show()
+plot() 
+
