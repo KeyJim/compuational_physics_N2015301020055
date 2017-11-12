@@ -13,4 +13,4 @@
 ## [Exercise 07:习题3.10](http://note.youdao.com/noteshare?id=f6437676eec283ed51a914fe476091f0)
 ## [Exercise 08: 习题3.18](http://note.youdao.com/share/?id=ab10c0993b135c83f52d25408f66328b&type=note#/)
 ## [Exercise 09:习题3.31](http://note.youdao.com/noteshare?id=99429276e3313dd1bcf51c0c78063e84)
-## [赚金币小游戏](
+## [赚金币小游戏](https://github.com/KeyJim/compuational_physics_N2015301020055/tree/master/%E8%B5%9A%E9%87%91%E5%B8%81)
