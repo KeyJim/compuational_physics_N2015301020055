@@ -15,3 +15,4 @@
 ## [Exercise 09:习题3.31](http://note.youdao.com/noteshare?id=99429276e3313dd1bcf51c0c78063e84)
 ## [赚金币小游戏](https://github.com/KeyJim/compuational_physics_N2015301020055/tree/master/%E8%B5%9A%E9%87%91%E5%B8%81)
 ## [Exercise 10:习题4.10](http://note.youdao.com/noteshare?id=af4812a2354bf507d937fd7e475ae716)
+## [Exercise 11:习题5.3](http://note.youdao.com/noteshare?id=f29fb53587e135921650f3c9a9f8e5c7)
